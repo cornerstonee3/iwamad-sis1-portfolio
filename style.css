@@ -1,0 +1,17 @@
+:root {
+  --bg: #ffffff;
+  --fg: #111827;
+}
+
+html[data-theme="dark"] {
+  --bg: #000000; 
+  --fg: #e5e7eb;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+#theme-toggle {
+  cursor: pointer;
+}
