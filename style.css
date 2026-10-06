@@ -11,6 +11,7 @@ html[data-theme="dark"] {
 body {
   background-color: var(--bg);
   color: var(--fg);
+  font-family: 'Martel', sans-serif;
 }
 #theme-toggle {
   cursor: pointer;
